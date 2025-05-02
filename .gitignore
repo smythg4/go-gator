@@ -1,0 +1,31 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+gator
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Go workspace file
+go.work
+
+# Local config files (if they contain sensitive data)
+config.json
+.env
+
+# Database files
+*.db
+pgdata/
+
+# Log files
+*.log
+
+# IDE specific files
+.idea/
+.vscode/
